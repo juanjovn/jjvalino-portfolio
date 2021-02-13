@@ -5,4 +5,13 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+
+  @media (prefers-color-scheme: dark) {
+    background: $dark-blue-text;
+    color: $white-color;
+  }
+  @media (prefers-color-scheme: light) {
+    background: $white-color;
+    color: $dark-blue-text;
+  }
 }

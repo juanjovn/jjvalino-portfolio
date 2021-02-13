@@ -1,12 +1,22 @@
 #hero {
+
+  @media (prefers-color-scheme: dark) {
+    background: $dark-blue-text;
+    color: $white-color;
+  }
+  @media (prefers-color-scheme: light) {
+    background: $white-color;
+    color: $dark-blue-text;
+  }
+
+  /*background: $dark-blue-text;*/
   min-height: 100vh;
   height: 100vh;
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
   font-weight: 400;
-  color: $dark-blue-text;
+  
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
