@@ -1,4 +1,20 @@
 #about {
+  @media (prefers-color-scheme: dark) {
+    background-image: linear-gradient(
+    135deg,
+    $dark-primary 0%,
+    $dark-secondary 100%
+  );
+    color: $white-color;
+  }
+  @media (prefers-color-scheme: light) {
+    background-image: linear-gradient(
+    135deg,
+    $primary-color 0%,
+    $secondary-color 100%
+  );
+    color: $white-color;
+  }
   background-color: $primary-color;
   background-image: linear-gradient(
     135deg,
