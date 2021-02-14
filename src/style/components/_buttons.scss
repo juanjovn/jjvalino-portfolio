@@ -1,5 +1,13 @@
 /* Call to Action Button */
 .cta-btn {
+
+@media (prefers-color-scheme: dark) {
+    color: $white-color;
+  }
+
+  @media (prefers-color-scheme: light) {
+    color: $dark-blue-text;
+  }
   display: inline-block;
   position: relative;
   padding: 0.8rem $default-font-size;
