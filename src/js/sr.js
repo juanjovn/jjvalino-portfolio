@@ -21,7 +21,7 @@ export default function() {
   ScrollReveal().reveal('.hero-title', 
     assignProps(
       { 
-        delay: 100, 
+        delay: 300, 
         origin: window.innerWidth > 768 ? 'left' : 'bottom'
       }, defaultProps)
   );
@@ -29,7 +29,7 @@ export default function() {
   ScrollReveal().reveal('.hero-cta', 
     assignProps(
       {
-        delay: 300, 
+        delay: 500, 
         origin: window.innerWidth > 768 ? 'left' : 'bottom'
       }, defaultProps)
   );
