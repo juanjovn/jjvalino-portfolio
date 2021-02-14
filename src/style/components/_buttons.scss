@@ -48,7 +48,7 @@
   // Responsive Button hero style
   @include respond(phone) {
     border: 2px solid transparent;
-  border-image: linear-gradient(
+    border-image: linear-gradient(
     135deg,
     $primary-color 0%,
     $secondary-color 100%
