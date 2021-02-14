@@ -47,9 +47,9 @@
   }
   // Responsive Button hero style
   @include respond(phone) {
-    background-image: none;
+    /*background-image: none;
     border: 2px solid $secondary-color;
-    -webkit-text-fill-color: $secondary-color;
+    -webkit-text-fill-color: $secondary-color;*/
   }
 
   &::after {
@@ -60,7 +60,7 @@
     );
     // Responsive Button hero style
     @include respond(phone) {
-      background-image: none;
+      /*background-image: none;*/
     }
   }
 
@@ -69,7 +69,7 @@
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
-      -webkit-text-fill-color: $secondary-color;
+      /*-webkit-text-fill-color: $secondary-color;*/
     }
 
     &::after {
